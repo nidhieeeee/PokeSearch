@@ -1,0 +1,133 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1b32;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.white{
+    width: 450px;
+    height: 107vh;
+    background-color: #f5f6f7;
+    border: 1px solid #f5f6f7;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+    color: black;
+    padding: 10px;
+}
+.input{
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.input input{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.input button{
+    height: 35px;
+    width: 80px;
+border-radius: 15px;
+background-color: #7f21ab;
+color: white;
+padding: 5px;
+font-size: 1.1rem;
+}
+#output{
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f1f7;
+    min-height: 325px;
+}
+#nameId{
+        height: 28px;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        display: flex;     
+}
+#weight-height{
+    height: 22px;
+    font-size: 0.85rem;
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+}
+#sprite-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    height: 230px;
+    width: 230px;
+}
+#block{
+    display: flex;
+    background-color: #7f21ab;
+
+}
+#types{
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+table{
+    border-collapse: collapse;
+    
+    width: 100%;
+    font-size: 1 rem;
+    color: #f5f6f7;
+    background-color: #7f21ab;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tr {
+    border-bottom: 5px solid #f5f6f7;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+th:nth-child(even), td:nth-child(even) {
+    border-left: 5px solid #f5f6f7;
+}
+@media screen and (max-width:555px){
+    .white{
+        width: 95%;
+    }
+}
