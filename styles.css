@@ -21,7 +21,7 @@ body{
 }
 .white{
     width: 450px;
-    height: 107vh;
+    margin-bottom: 20px;
     background-color: #f5f6f7;
     border: 1px solid #f5f6f7;
     border-radius: 15px;
@@ -120,7 +120,6 @@ th {
     display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
-    text-align: -internal-center;
     unicode-bidi: isolate;
 }
 th:nth-child(even), td:nth-child(even) {
